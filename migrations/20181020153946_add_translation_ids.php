@@ -44,7 +44,7 @@ class AddTranslationIds extends RoxMigration
 
         // signup
         $this->AddWordCode( 'signup.error.mothertongue', 'Please select a mother tongue.', 'Error message if no mother tongue was selected.');
-        $this->AddWordCode('signup.error.username.taken', 'Please choose a different username that is at least 4 and maximum 20 characters long. They have to start with a letter, they have to end with either a letter or a number. In between the following characters may be used: . _ -', 'Error message if username is already in use.');
+        $this->AddWordCode('signup.error.username.taken', 'Username already in use.', 'Error message if username is already in use.');
         $this->AddWordCode('signup.error.username', 'Username must be at least 4 and maximum 20 characters long. They have to start with a letter, they have to end with either a letter or a number. In between the following characters may be used: . _ -', 'Error message if username is malformed.');
         $this->AddWordCode('signup.popover.password', 'Please choose a strong password that is at least 6 characters long.', 'Popover text on signup regarding the password.');
         $this->AddWordCode('signup.confirm.email', 'Please confirm your email address', 'Subject line for the signup confirmation email');
